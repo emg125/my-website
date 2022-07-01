@@ -1,0 +1,65 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me!</title>
+</head>
+
+<body>
+  <h1 style="font-family:fantasy;" align="center"> How to contact me!</h1>
+  <hr size="5" noshade />
+
+  <p style="font-size:30px;">
+    My email address: xxxxxx@yyy.com
+  </p>
+  <p style="font-size:30px;">
+    My Phone Number: 2323234231 <br /> <br /><br />You can call me or send email
+  </p>
+
+  <hr size="6" noshade />
+<!-- mail gönderme sekmesi acılıyor ve name="yourName" gibi seyler
+varsa mail icinde yourName: (girilen cevap) seklinde yzılıyor.-->
+  <form action="mailto:emre.gokmenler@gmail.com" method="post" enctype="text/plain">
+    <label style="font-size:20px;color:powderblue;" > Your Name: </label>
+    <input type="text" name="yourName" value="">
+    <br />
+    <label>Pick your favourite color: </label>
+    <input type="color" name="yourColor" value="" />
+    <br />
+    <label>Do you want to offer something:</label>
+    <input type="checkbox" name="" value="" />
+    <br />
+    <label>Please write your email address</label>
+    <input type="email" name="" value="" />
+    <br / />
+    <label>Do you want to sign up? :</label>
+    <input type="checkbox" name="" value="" />
+    <br />
+    <label>Please write your message: </label>
+    <br />
+    <textarea name="yourMessage" rows="10" cols="90"></textarea>
+    <br />
+    <label>If you checked it, write your password: </label>
+    <input type="password" name="" value="" />
+    <br />
+    <label> Choose your date of birth: </label>
+    <input type="date" name="" value="" />
+    <br />
+    <label>Select your happiness level: </label>
+    <input type="range" name="" value="" />
+    <br />
+    <label>Choose your radio: </label>
+    <input type="radio" name="" value="" />
+    <br />
+    <label>Upload your profile photo:</label>
+    <input type="file" name="" value="" />
+    <br /><br / >
+    <input type="submit" name="">
+  </form>
+
+
+
+</body>
+
+</html>
